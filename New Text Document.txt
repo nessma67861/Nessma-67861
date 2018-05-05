@@ -1,0 +1,272 @@
+﻿<!doctype html>
+<html>
+	 <head>
+               <meta charset="utf-8">
+	       <title>nessma's Resume</title>
+	       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	       <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+	 <style>
+	 html {
+	 background: url('thO1FW2JS1.jpg');
+	 padding: 0 1em;
+	 }
+	 body {
+	 background-color: #FFF;
+	 font-family: 'Lato', sans-serif;
+	 margin: 1em auto;
+	 max-width: 50em;
+	 height: 52.625em;
+	 }
+	 #section-left {
+	 width: 35%;
+	 float: left;
+	 height: 100%;
+	 background-color: #fc7a70;
+	 color: #fff;
+	 text-align: center;
+	 }
+	 #section-left .section {
+	 margin-top: 10%;
+	 padding: 1em;
+	 }
+	 #section-left .section .logo {
+	 height: 220px;
+	 width: 220px;
+	 border-radius: 50%;
+	 margin: 0 auto;
+	 background: url('nessma.s.jpg');
+	 }
+	
+	 .intro hr {
+	 width: 4em;
+	 display: block;
+	 height: 2px;
+	 border: 0px;
+	 border-top: 2px solid;
+	 }
+	
+	 .dob {
+	 text-decoration: overline underline;
+	 }
+	
+	 .intro .content {
+	 margin-bottom: 20px;
+	 }
+	
+	 #contact {
+	 margin-top: 40px;
+	 }
+	
+	 h1 {
+	 font-family: 'Open Sans', sans-serif;
+	 text-transform: uppercase;
+	 }
+	
+	 #section-right {
+	 width: 65%;
+	 float: right;
+	 /*height: 100%;*/
+	 }
+	 #section-right .section {
+	 margin: 0 0 30px 0;
+	 }
+	 .wrapper {
+	 padding: 2em;
+	 }
+	 .fa {
+	 margin-right: 15px;
+	 }
+	 .wrapper .title {
+	 color: #fc7a70;
+	 font-size: 1.3em;
+	 font-variant: small-caps;
+	 letter-spacing: 0.1em;
+	 font-weight: bold;
+	 border-bottom: 2px solid #f2f2f2;
+	 }
+	 a:link {
+	 color: #fff;
+	 text-decoration: none;
+	 }
+	 a:visited {
+	 color: #fff;
+	 text-decoration: none;
+	 }
+	 a:hover {
+	 color: #fff;
+	 text-decoration: none;
+	 }
+	 a:active {
+	 color: #fff;
+	 text-decoration: none;
+	 }
+	 h2 {
+	 text-transform: uppercase;
+	 font-size: 1em;
+	 }
+	 h3 {
+	 font-size: 0.8em;
+	 text-transform: uppercase;
+	 font-weight: normal;
+	 }
+	  ul
+         {
+         position: bsolute;
+         top: 50%;
+         left:50%;
+         margin:0;
+         padding:0;
+         display: flex;
+         }
+         ul li
+         {
+          list-style: none;
+          }
+          ul li a
+          {
+          position: relative;
+          width: 40px;
+          height:40px;
+          display: block;
+          text-align: center;
+          margin:0 10px;
+          border-radius:50%;
+          padding: 6px;
+          box-sizing: border-box;
+          text-decoration: none;
+          box-shadow:0 10px 25px rgba(0,0,0,0.5);
+          background: linear-gradient(0deg, #ddd, #fff);
+          transition: .5s;
+          }
+          ul li a:hover
+          {
+           box-shadow:0 2px 25px rgba(0,0,0,0.9);
+           }
+          ul li a .fa
+          {
+          width: 100%;
+          height:100%;
+          display: block;
+          background: linear-gradient(0deg, #fff, #ddd);
+          border-radius: 50%; 
+          line-height: (60px - 6px);
+          font-size:24px;
+          color: #262626;
+          transition: .5s;
+          }
+          ul li:nth-child(1) a:hover .fa
+          {
+           color: #3b5998;
+          }
+          ul li:nth-child(2) a:hover .fa
+          {
+          color: #00aced;
+          }
+          ul li:nth-child(3) a:hover .fa
+          {
+          color: #dd4b39;
+           }
+           ul li:nth-child(4) a:hover .fa
+           {
+           color: #bc2a8d;
+           }
+  
+       
+	 </style>
+	 </head>
+	
+	 <body>
+	 <div id="section-left">
+	 <div class="section intro">
+	 <div class="logo"></div>
+	 <h1>Nessma Mohamed</h1>
+	 <div class="content">
+         <i class="fa fa-birthday-cake" aria-hidden="true"></i>
+	 <span class="dob">12 Dec 1998</span> <br>
+         <i class="fa fa-phone" aria-hidden="true"></i>
+	 <span class="num">01152523354</span> <br> <hr>
+         <i class="fa fa-address-book" aria-hidden="true"></i>
+	 <span class="title"> 6-october giza-egypt</span><br><hr>
+         
+         
+	 </div>
+	 
+	
+	 <div id="contact">
+         <ul>
+         <li><a href="https://www.facebook.com/nessma.mhamed"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+         <li><a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+         <li><a href="www.nessma.mohamed1212@gmail.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+         <li><a href="https://www.instagram.com/nessmamuhamed/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+         
+         </div>
+         </div>
+         </div>
+         
+	
+	 <div id="section-right">
+	 <div class="wrapper">
+	 <div class="section">
+	 <div class="title">
+	 <i class="fa fa-user" aria-hidden="true"></i>
+	 summary
+	 </div>
+	 <p>An intelligent and hardworking graduate with the degree of master in accounting. Experienced person with many accounting skills and also have extensive knowledge of ways to implement the principles of accounting for his work area. An enthusiastic motivator who is working to make his accounting career successful. A talented problem solver who acquires every opportunity to prove himself.</p>
+	 </div>
+	
+	
+	
+	 <div class="section">
+	 <div class="title">
+	 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+	 Education
+	 </div>
+	 <div class="content">
+         <h2> university: </h2>
+         <h3> misr university for science & technology </h3>
+	 </div>
+         <div class="content">
+         <h2> faculty: </h2>
+         <h3> business adminstration </h3>
+         </div>
+         <div class="content">
+         <h2> major: </h2>
+         <h3> accounting </h3>
+         </div>
+         <div class="content">
+         <h2> grade: </h2>
+         <h3> A {EXCELLENT} </h3>
+         </div>
+         <div class="content">
+         <h2> CGPA: </h2>
+         <h3> 3,8 </h3>
+         </div>
+	
+	 <div class="section">
+	 <div class="title">
+	 <i class="fa fa-cogs" aria-hidden="true"></i>
+	 Skills
+	 </div>
+         </div>
+	 <li>social</li>
+	 <li>fast learning</li>
+	 <li>work under-stress</li>
+         <li>computer skills: good at Html,word,powerpoint</li>
+         <li>language skills:arabic good at english,french,turkey </li>
+	 </ul>
+         
+	 </div>
+	
+	 <div class="section">
+	 <div class="title">
+	 <i class="fa fa-trophy" aria-hidden="true"></i>
+	 student activity:
+	 </div>
+	 <div class="content">
+	 <h2>member at focus student activity</h2>
+	 </div>
+	 </div>
+	 </div>
+	 </div>
+	 </body>
+	</html>
